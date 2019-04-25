@@ -1,3 +1,47 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+
+#kcontainer {
+    background: black;
+  }
+
+.grid-column{
+    display: flex;
+    justify-content: center;
+  	align-items: center;
+}
+
+.grid-item , .space , .grid-item-2 , .control-key{
+    background: #757372;
+    color: white;
+    font-size: 3vw;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    width: 5vw;
+  	height: 5vw;
+    border-radius: 1vw;
+    margin: 0.3vw;
+}
+
+.space{
+    width: 30vw;
+}
+
+.grid-item-2{
+    width: 10vw;
+}
+
+.control-key{
+    background: #F78505;
+    width: 10vw;
+}
+
+.grid-item:active , .space:active , .grid-item-2:active{
+    background: #545454;  
+}
+
+.control-key:active{
+    background: #c36700
+}
